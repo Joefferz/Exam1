@@ -8,7 +8,7 @@
 public class Bird
 {
     // instance variables - replace the example below with your own
-    private String color;
+    public String color;
     private String breed;
     private int age;
 

@@ -11,16 +11,25 @@ public class Zoo
     private ArrayList<Bird> zooBirds;
     private int numberOfBlueBirds = 0;
     
-    /*int countBlueBirds()
+    public Zoo()
     {
-        for(zooBirds : Bird){
-            
-            if(colorOfBird.equals("blue")){
+        zooBirds = new ArrayList<Bird>(); //ChatGPT. Forgot to initialize the ArrayList
+        zooBirds.add(new Bird("blue","blue jay",2));
+        zooBirds.add(new Bird("red","red cardinal",2));
+        zooBirds.add(new Bird("red","red cardinal",2));
+        zooBirds.add(new Bird("blue","blue jay",2));
+    }
+    
+    int countBlueBirds()
+    {
+        for(Bird bird : zooBirds)
+        {
+            if(bird.color.equals("blue"))
+            {
                 numberOfBlueBirds++;
-                System.out.println(numberOfBirds);
             }
-        
-            
         }
-    }*/
-}
+        
+        return numberOfBlueBirds;
+    }
+}    
