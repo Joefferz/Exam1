@@ -11,16 +11,21 @@ public class AgeCalculator
     private int currentYear = 2025;
     private int age;
     
-    /*public int drivingEligibility(int yearOfBirth)
+    public int drivingEligibility(int yearOfBirth)
     {
         age = currentYear - yearOfBirth;
+        
+        //Fix: Fixed grammar mistakes
         if(age>=16)
         {
-            System.out.println("You are, " + age + "you are eligible");
+            System.out.println("You are " + age + ", you are eligible to drive.");
         }
         else
         {
-            System.out.println("You will have to wait " + (16 - age) + "more years");
+            System.out.println("You will have to wait " + (16 - age) + " more year(s).");
         }
-    }*/
+        
+        //Fix: Returned age
+        return age;
+    }
 }
