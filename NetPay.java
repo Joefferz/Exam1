@@ -7,15 +7,16 @@
  */
 public class NetPay
 {
-    // instance variables - replace the example below with your own
-    double taxAndDeduction = 0.3;
-    double totalSalary;
-    double netPay;
+    private double taxAndDeduction = 0.3;
+    private double totalSalary;
+    private double netPay;
     
-    /*public int getNetPay(double amountOfHours, double hourlyWage)
+    //Fix: Changed return type to void.(Question did not ask for a return but an output)
+    public void getNetPay(double amountOfHours, double hourlyWage)
     {
-        totalSalary = amountOfHours*hourlyWage;
-        netPay = totalSalary*taxAndDeduction;
+        totalSalary = amountOfHours * hourlyWage;
+        //Fix: Outputs proper netpay instead of amount of tax and deduction.
+        netPay = totalSalary - (totalSalary * taxAndDeduction);
         System.out.println(netPay);
-    }*/ 
+    }
 }
