@@ -8,3 +8,5 @@ PROJECT TITLE: Exam - 1
 PURPOSE OF PROJECT:Checking if the code/program works
 VERSION or DATE: 2/28/2025
 AUTHORS:Joeffrey Briones
+
+It was nice knowing what I did wrong and how I need to fix my code.
